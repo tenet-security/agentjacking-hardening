@@ -1,10 +1,20 @@
-# Hardening AI coding agents against Agentjacking
+<p align="center">
+  <img src="assets/astronaut.png" alt="Tenet Security" width="150">
+</p>
 
-Drop-in configs to harden **Cursor** and **Claude Code** against prompt injection
-delivered through untrusted tool output — e.g. a crafted Sentry error that steers
-your agent into running attacker-controlled code.
+<h1 align="center">Hardening AI coding agents against Agentjacking</h1>
 
-Background: [Agentjacking: hijacking coding agents with fake Sentry errors](https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/).
+<p align="center">
+  Drop-in configs to harden <b>Cursor</b> and <b>Claude Code</b> against prompt injection<br>
+  delivered through untrusted tool output — e.g. a crafted Sentry error that<br>
+  steers your agent into running attacker-controlled code.
+</p>
+
+<p align="center">
+  <a href="https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/">Read the research</a>
+  &nbsp;·&nbsp;
+  by <a href="https://tenetsecurity.ai">Tenet Security</a>
+</p>
 
 ## The threat in one paragraph
 
@@ -77,3 +87,11 @@ the `ask`/allowlists to match your workflow. Tighter is safer.
 These configs reduce blast radius; they do not make an agent immune to prompt
 injection. Combine them with least-privilege credentials, short-lived tokens, and
 review of which MCP servers return externally-influenced data.
+
+## In the press
+
+- [The Next Web — Agentjacking: a fake bug report hijacks AI coding agents](https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry)
+- [Hacker News — discussion](https://news.ycombinator.com/item?id=48507994)
+- [Infosecurity Magazine — New "Agentjacking" Attacks Could Hijack AI Coding Agents](https://www.infosecurity-magazine.com/news/agentjacking-attacks-hijack-ai/)
+- [Cloud Security Alliance — Research note: Agentjacking (MCP / Sentry injection)](https://labs.cloudsecurityalliance.org/research/csa-research-note-agentjacking-mcp-sentry-injection-20260612/)
+- [Nutrient — Your logging system may be an agentic threat vector](https://www.nutrient.io/blog/emerging-threats-your-logging-system.md)
