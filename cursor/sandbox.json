@@ -1,0 +1,14 @@
+{
+  "networkPolicy": {
+    "default": "deny",
+    "allow": [
+      "github.com",
+      "codeload.github.com",
+      "*.githubusercontent.com",
+      "registry.npmjs.org",
+      "registry.yarnpkg.com",
+      "pypi.org",
+      "files.pythonhosted.org"
+    ]
+  }
+}
