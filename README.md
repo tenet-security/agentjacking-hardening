@@ -90,6 +90,7 @@ review of which MCP servers return externally-influenced data.
 
 ## In the press
 
+- [The New Stack — A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex](https://thenewstack.io/agentjacking-sentry-mcp-attack/)
 - [The Next Web — Agentjacking: a fake bug report hijacks AI coding agents](https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry)
 - [Hacker News — discussion](https://news.ycombinator.com/item?id=48507994)
 - [Infosecurity Magazine — New "Agentjacking" Attacks Could Hijack AI Coding Agents](https://www.infosecurity-magazine.com/news/agentjacking-attacks-hijack-ai/)
